@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "css:watch": "sass --watch resources/sass/main.scss public/css/main.css",
+        "css:build": "sass resources/sass/main.scss public/css/main.css"
+    },
+    "devDependencies": {
+        "bulma": "^0.9.4",
+        "sass": "^1.69.4"
+    }
+}
